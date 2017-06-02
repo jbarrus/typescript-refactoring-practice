@@ -1,28 +1,28 @@
 Refactoring practice kata. Ported from Java to Typescript from https://github.com/OdeToCode/Katas
 
-###Setup:
+### Setup:
 
 ```bash
 npm install
 npm test
 ```
 
-###Problem Instructions
+### Problem Instructions
 Here is the bad news: the new developer you hired has written some terrible, atrocious code. No one can understand what it does.
 
 The good news: at least there are unit tests to prove the code is working.
 
 You job is to refactor the code and make it readable, while keeping the code in working order (pass all tests).
 
-!!How To Start!!
+#### How To Start
 
-Run the tests with mvn test to make sure everything works.
+Run the tests with mvn test to make sure everything works. ```npm test```
 
 Start refactoring!
 
-The primary goal is to refactor the code in algorithm/Finder.java – as it stands the code is incomprehensible.
+The primary goal is to refactor the code in finder.ts – as it stands the code is incomprehensible.
 
-!!Tips!!
+#### Tips
 
 Start with simple rename refactors so you can better understand the abstractions you are working with. Rename any class or any variable.
 
@@ -32,6 +32,6 @@ See if you can also eliminate switch statements and multiple exit points from me
 
 Anything is fair game, create new classes, new methods, and rename tests. The only restriction is that the existing tests have to keep working. Lean on the tests and run them after every small change to make sure you are on the right path.
 
-!!How to End!!
+#### How to End
 
 You can stop when you feel the code is good enough, something you can come back to in 6 months and understand.
