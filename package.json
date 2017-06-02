@@ -1,0 +1,19 @@
+{
+  "name": "refactoring-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-ts '**/*.spec.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/lodash": "^4.14.63",
+    "jasmine": "^2.6.0",
+    "jasmine-ts": "^0.1.2",
+    "lodash": "^4.17.4",
+    "simple-words": "^1.0.2"
+  }
+}
