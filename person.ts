@@ -1,4 +1,4 @@
-export default class Thing {
+export default class Person {
   public name: string;
   public birthDate: Date;
 
